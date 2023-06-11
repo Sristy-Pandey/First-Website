@@ -1,0 +1,26 @@
+
+.centertext{background-color: rgb(122, 32, 4);
+ text-align: center; color: rgb(251, 247, 247);
+}
+
+label{ color: rgb(255, 255, 255);}
+@media(min-width: 600px) {
+  .centertext{background-color: rgb(153, 26, 87);}
+}
+button{color: black;}
+
+
+
+
+body{background-image: url('https://i.pinimg.com/564x/62/e2/e3/62e2e3ae17a3e4f5ef03f8f95da8110b.jpg'); background-repeat: no-repeat; background-size: cover;}
+
+@media  (min-width: 600px) {
+  body {
+    background-image: url('https://i.pinimg.com/474x/bb/74/21/bb7421d0023775fb961342d6d98581a3.jpg');background-repeat: no-repeat;   background-size: cover;
+  }}
+
+@media(min-width:10px){
+  body{
+    vertical-align: 5pc;
+  }
+}
